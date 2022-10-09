@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+#infocon {
+  width: 300px;
+  position: relative;
+}
+#login-form {
+}
+#login-form input[type="text"] {
+  font-size: 1.5em;
+  border-bottom: 1px solid white;
+}
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+#login-form input[type="text"]::placeholder {
+  color: white;
+}
+input[type="submit"] {
+  display: none;
+}
+#greeting {
+  width: 100%;
+  color: white;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+.hidden {
+  display: none;
+}
+#clock {
+  width: 100%;
+  font-size: 5.7em;
+  vertical-align: middle;
+  color: white;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+#weather {
+  font-size: 1.2em;
+  color: white;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+#todocon {
+  width: 500px;
+  height: 600px;
+  margin-left: 2%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#todo-form {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todo-form input {
+  width: 90%;
+  height: 70%;
+  font-size: 1.8em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 100px;
+}
+#todo-list {
+  width: 100%;
+  height: 100%;
+  padding: 0 10%;
+}
+#todo-list li {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+#todo-list button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+#quote {
+  position: absolute;
+  display: none;
+}
